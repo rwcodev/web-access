@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AUTOSERVICIO JUANES</title>
+	<link rel="stylesheet" href="styles.css" media="screen" />
+	<script src="captiveportal-validator1.js"></script>
+	<script src="captiveportal-validator2.js"></script>
+</head>
+<body>
+	<header>
+		<h1>B i e n v e n i d o</h1>
+
+		<img src="walcorg_logical.jpg" />
+		<p id="aviso">60 Minutos de conexion</span></p>
+	</header>
+
+	<section>
+		<form method="post" action="$PORTAL_ACTION$" enctype="application/x-www-form-urlencoded" onsubmit="validator2()">
+			<p class="form">Ticket:</p> <input type="text" id="voucher" name="auth_voucher" />
+			<input type="hidden" name="redirurl" value="$PORTAL_REDIRURL$" />
+			<input type="submit" name="accept" value="Acceder" />
+		</form>
+		<p>..</p>
+		<p>al finalizar debera ingresar un nuevo folio.</p>
+	</section>
+	<footer>
+		<p>Powered By WALCORG LOGICAL</p>
+		<script src="captiveportal-tiempoactual.js"></script>
+		<table border="0" cellpadding="5" cellspacing="0">
+
+		</table>
+		<script src="captiveportal-funciones.js"></script>
+	</footer>
+</body>
+</html>
